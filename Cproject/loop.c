@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
 
   // printf("Hello World\n");
   // printf("Hello World\n");
@@ -54,10 +55,10 @@ int main(void){
 
   // }
 
-  //do { } while (조건);
-  // int i = 1;
-  // do {
-  //   printf("Hello World %d\n", i++);
+  // do { } while (조건);
+  //  int i = 1;
+  //  do {
+  //    printf("Hello World %d\n", i++);
 
   // } while (i <= 10);
 
@@ -73,7 +74,7 @@ int main(void){
   // }
 
   // 구구단
-  
+
   // for (int i = 1; i <= 9; i++)
   // {
   //   printf("%d단 계산\n", i);
@@ -103,23 +104,18 @@ int main(void){
   //  ****
   // *****
 
-  // for (int i = 0; i < 5; i++)
-  // {
-  //   for (int j = i; j < 5 -1; j++)
-  //   {
-  //     printf(" ");
-  //   }
-  //   for (int k = 0; k <= i; k++)
-  //   {
-  //     printf("*");
-  //   }
-  //   printf("\n");
-
-
-
+  for (int i = 0; i < 5; i++)
+  {
+    for (int j = i; j < 5 -1; j++)
+    {
+      printf(" ");
+    }
+    for (int k = 0; k <= i; k++)
+    {
+      printf("*");
+    }
+    printf("\n");
   }
 
-
-
-  return 0;
+return 0;
 }
