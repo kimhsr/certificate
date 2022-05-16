@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-int num1;
-
 void main(){
-  num1 = 10;
-  printf("%d", num1);
-  func();
-  printf("%d", num1);
+  add(10);
+  add(5);
+  add(3);
 }
-void func(){
-  num1 = 20;
+int add(int i){
+  static int sum = 0;
+  sum = sum + i;
+  printf("sum:%d\n", sum);
 }
