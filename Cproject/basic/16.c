@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main(){
-  int i = 0;
-  while(i < 3)
-  {
-    printf("i = : %d\n", i);
-    i++;
+  int count = 2;
+  int sum = 0;
+  while(count <= 10){
+    sum += count;
+    count += 2;
   }
-  printf("sum = : %d\n", i);
+  printf("%d %d", count, sum);
 }
