@@ -9,7 +9,9 @@ int func(int n){
 }
 
 void main(){
+  
 int result;
 result = func(19);
 printf("result=%d\n", result);
+
 }
